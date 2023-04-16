@@ -49,7 +49,7 @@ We have utilised a form of supervised learning:
 <br />We have tried 3 different regression methods in order to find out which method is the most effective in creating the best regression model.
 
 <br />1) Decision Tree Regression
-><br />Decision Tree was decided as we are using a combination of numeric and categorical variables to predict a continuous numeric datatype Laptop Price.
+>Decision Tree was decided as we are using a combination of numeric and categorical variables to predict a continuous numeric datatype Laptop Price.
 ><br />Decision Tree finds the best split at a certain feature, like SDD, at a certain value.
 ><br />Each Decision Node is recursively split into leaf nodes using the features(variables) and values, creating different classes.
 ><br />By traversing the tree, we are then able to predict the Laptop price using the test data, and the predicted value is compared to the actual value to determine the accuracy of the model.
@@ -66,7 +66,7 @@ We have utilised a form of supervised learning:
 
 <br />3) Random Forest with Randomized Search CV Regression
 
-> <br />In order to further optimise Random Forest Model, hyperparameters were tuned before the train dataset is used for training of the model.
+> In order to further optimise Random Forest Model, hyperparameters were tuned before the train dataset is used for training of the model.
 > <br />In the case of Random Forest, The hyperparameters are number of features used for spliting considered for each tree and number of decision trees generated.
 > <br />Then, Cross Validation is used to account for the overfitting of model on the train dataset, and determine the best hyperparameters for Random Forest tree.
 > <br />The train set is split into K number of subsets(folds)
