@@ -46,12 +46,12 @@ We have utilised a form of supervised learning:
 <br />We have tried 3 different regression methods in order to find out which method is the most effective in creating the best regression model.
 
 <br />1) Decision Tree Regression
-<br />Decision Tree was decided as we are using a combination of numeric and categorical variables to predict a continuous numeric datatype Laptop Price.
-<br />Decision Tree finds the best split at a certain feature, like SDD, at a certain value.
-<br />Each Decision Node is recursively split into leaf nodes using the features(variables) and values, creating different classes.
-<br />By traversing the tree, we are then able to predict the Laptop price using the test data, and the predicted value is compared to the actual value to determine the accuracy of the model.
-<br />However, Decision Tree often leads to data fragmentation, and overfitting of the model.
-<br />This occurs when the training data is recursively split until each leaf node is pure and each leaf node have a 100% accuracy.
+><br />Decision Tree was decided as we are using a combination of numeric and categorical variables to predict a continuous numeric datatype Laptop Price.
+><br />Decision Tree finds the best split at a certain feature, like SDD, at a certain value.
+><br />Each Decision Node is recursively split into leaf nodes using the features(variables) and values, creating different classes.
+><br />By traversing the tree, we are then able to predict the Laptop price using the test data, and the predicted value is compared to the actual value to determine the accuracy of the model.
+><br />However, Decision Tree often leads to data fragmentation, and overfitting of the model.
+><br />This occurs when the training data is recursively split until each leaf node is pure and each leaf node have a 100% accuracy.
 <br />
 <br />Hence, (2) Random Forest Regression and (3) Random Forest with Randomized Search CV Regression were used to further improve the accuracy of (1) Decision Tree Regression
 <br />
