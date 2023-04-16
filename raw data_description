@@ -8,7 +8,7 @@ SUMMARY:
 2 Product: Brand and Model	                                                        dtype=object/string
 3 TypeName: Type of Laptop	                                                        dtype=object/string
 4 Inches: Screen Size in Inches	                                                        dtype=float64
-5 ScreenResolution: Screen Resolution of Laptop	                                        dtype=object/string
+5 ScreenResolution: Screen Resolution of Laptop (in width*height)                       dtype=object/string
 6 Cpu: Central Processing Unit (CPU)	                                                dtype=object/string
 7 Ram: Size of Random-Access Memory (RAM) device in GigaBytes (GB)                      dtype=object/string
 8 Memory: Hard Disk Drive (HDD)/Solid-State Drive (SSD) Memory in GigaBytes(GB)         dtype=object/string
