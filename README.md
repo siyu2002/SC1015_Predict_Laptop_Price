@@ -34,7 +34,7 @@ We are using a mixed structured dataset of numeric and categorical datatype from
 Input for the ML model: SSD, ScreenResolution, Company, RAM, CPU_company and CPU_model
 <br />Output: Laptop Price in Euros
 
-# Machine Learning Tools utilised:
+# Machine Learning Tools
 We have utilised a form of supervised learning: 
 <br />Regression
 <br />
