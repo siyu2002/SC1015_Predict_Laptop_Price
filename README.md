@@ -4,7 +4,7 @@ We are using a mixed structured dataset of numeric and categorical datatype from
   Refer: Raw data_description
 
 # Data preprocessing (Cleaning and Preparation of dataset) 
-1) conversion of datatype
+1) Conversion of Datatypes (from categorial to numeric)
 2) Splicing
 3) Removing outliers
 4) Dropping variables not useful for project objective
@@ -55,9 +55,9 @@ The model has the best Regressor accuracy score of 0.7085 and the least Mean Squ
 
 #
 ## Team Members
-Edmund
-Joshua
-Siyu
+#### Edmund
+#### Joshua
+#### Siyu
 
 
 # 
