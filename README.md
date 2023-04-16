@@ -4,10 +4,10 @@ We are using a mixed structured dataset of numeric and categorical datatype from
   Refer: Raw data_description <br />
 
 # Data preprocessing (Cleaning and Preparation of dataset) 
->1) Conversion of Datatypes (from categorial to numeric)
->2) Splicing
->3) Removing outliers
->4) Dropping variables not useful for project objective
+1) Conversion of Datatypes (from categorial to numeric)
+2) Splicing
+3) Removing outliers
+4) Dropping variables not useful for project objective
 
 # Exploratory Data Analysis
 >1) Uni-variate analysis
