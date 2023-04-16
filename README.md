@@ -11,6 +11,7 @@ We are using a mixed structured dataset of numeric and categorical datatype from
 4) Dropping variables not useful for project objective
 
 # Exploratory Data Analysis
+**Visualisation**
 1) Uni-variate analysis
 <br /> a. Histogram
 <br /> b. Histogram with kernel density estimate (KDE)
