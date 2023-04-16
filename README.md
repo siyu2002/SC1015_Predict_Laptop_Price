@@ -10,7 +10,7 @@ We are using a mixed structured dataset of numeric and categorical datatype from
 3) Removing outliers
 4) Dropping variables not useful for project objective
 
-<br /> Refer: [clean data_description](https://github.com/siyu2002/SC1015_Predict_Laptop_Price/blob/main/Data%20Description/clean%20data_description) <br /> 
+<br /> Refer: [Clean data_description](https://github.com/siyu2002/SC1015_Predict_Laptop_Price/blob/main/Data%20Description/clean%20data_description) <br /> 
 
 # Exploratory Data Analysis
 **Visualisation**
@@ -21,7 +21,7 @@ We are using a mixed structured dataset of numeric and categorical datatype from
 <br /> d. Violin plot
   
 2) Multi-variate analysis
-<br /> a.Correlation coefficient between numeric variables
+<br /> a. Correlation coefficient between numeric variables
 <br /> b. Boxplot with catergorical variables
   
 <br />From the EDA, we have found out numeric variables **SSD and ScreenResolution** has the highest positive correlation with Laptop price.
