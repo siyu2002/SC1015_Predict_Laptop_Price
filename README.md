@@ -57,11 +57,11 @@ We have utilised a form of supervised learning:
 
 <br />
 <br />2) Random Forest Regression
-<br /> >Random Forest is fast and robust, and fixes the overfitting problem by Decision Tree.
-<br />>It works by generating multiple decision trees and merges the output of multiple Decision Trees to generate the final output.
+<br />Random Forest is fast and robust, and fixes the overfitting problem by Decision Tree.
+<br />It works by generating multiple decision trees and merges the output of multiple Decision Trees to generate the final output.
 <br />
 <br />3) Random Forest with Randomized Search CV Regression
-><br />
+<br />
 
 
 
