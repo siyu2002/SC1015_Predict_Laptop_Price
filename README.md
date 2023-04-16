@@ -29,7 +29,7 @@ We are using a mixed structured dataset of numeric and categorical datatype from
 2. Removing variables that are not useful for ML analysis
 
 Input for the ML model: SSD, ScreenResolution, Company, RAM, CPU_company and CPU_model
-Output: Laptop Price in Euros
+<br />Output: Laptop Price in Euros
 
 # Machine Learning Tools utilised:
 We have utilised a form of supervised learning: 
