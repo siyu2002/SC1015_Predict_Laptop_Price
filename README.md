@@ -96,11 +96,13 @@ The best hyperparameters determined are as follows:
 
 
 
+
+
 # Conclusion
 In order to determine the most effective model, we use 2 performance metrics, Mean Square Error (MSE) and Accuracy of the model.
 <br />We have found out that Random Forest with Randomized Search CV produces the best laptop price prediction model.
 <br />The model has the best Regressor accuracy score of 0.7085 and the least Mean Squared Error (MSE) of 381.32
-
+**Rooms for Improvement for model:**
 
 ### Team Members
 Edmund
