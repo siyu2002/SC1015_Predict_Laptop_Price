@@ -55,8 +55,8 @@ We have utilised a form of supervised learning:
 ><br />By traversing the tree, we are then able to predict the Laptop price using the test data, and the predicted value is compared to the actual value to determine the accuracy of the model.
 ><br />However, Decision Tree often leads to data fragmentation, and overfitting of the model.
 ><br />This occurs when the training data is recursively split until each leaf node is pure and each leaf node have a 100% accuracy.
-<br />
-<br />Hence, (2) Random Forest Regression and (3) Random Forest with Randomized Search CV Regression were used to further improve the accuracy of (1) Decision Tree Regression
+
+Hence, (2) Random Forest Regression and (3) Random Forest with Randomized Search CV Regression were used to further improve the accuracy of (1) Decision Tree Regression
 
 <br />2) Random Forest Regression
 
