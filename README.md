@@ -26,8 +26,9 @@ From the EDA, we have found out
 1) creating dummy variables from existing variables
 2) Removing variables that are not useful for ML analysis
 
-# ***Machine Learning Tools utilised:
+# Machine Learning Tools utilised:
 Regression
+
 We have utilised Regression as we are predicting the laptop price which is continuous (non-discrete) numeric variable.
 -The Machine Learning algorithm here is provided with a small training dataset to work with, which is a smaller part of the bigger dataset.
 -It serves to give the algorithm an idea of the problem, solution, and various data points to be dealt with.
@@ -37,7 +38,7 @@ We have utilised Regression as we are predicting the laptop price which is conti
 We have tried 3 different regression methods in order to find out which method is the most effective in creating the best regression model.
 
 1) Decision Tree
-
+Often leads to data fragmentation, and overfitting of the model
 
 2) Random Forest
 
@@ -53,14 +54,13 @@ In order to determine the most effective model, we use 2 performance metrics, Me
 We have found out that Random Forest with Randomized Search CV produces the best laptop price prediction model.
 The model has the best Regressor accuracy score of 0.7085 and the least Mean Squared Error (MSE) of 381.32
 
-#
+<br />
 ## Team Members
-#### Edmund
-#### Joshua
-#### Siyu
+<br /> Edmund
+<br /> Joshua
+<br /> Siyu
+<br />
 
-
-# 
 ============================================================================================================================================================  
 Checkpoint 1. Introduction Detailed introduction to your project objective, e.g. what problem you are going to solve based on what dataset.
 
