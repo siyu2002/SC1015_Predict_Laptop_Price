@@ -53,6 +53,14 @@ In order to determine the most effective model, we use 2 performance metrics, Me
 We have found out that Random Forest with Randomized Search CV produces the best laptop price prediction model.
 The model has the best Regressor accuracy score of 0.7085 and the least Mean Squared Error (MSE) of 381.32
 
+#
+## Team Members
+Edmund
+Joshua
+Siyu
+
+
+# 
 ============================================================================================================================================================  
 Checkpoint 1. Introduction Detailed introduction to your project objective, e.g. what problem you are going to solve based on what dataset.
 
