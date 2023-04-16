@@ -55,12 +55,12 @@ We have utilised a form of supervised learning:
 <br />3) Random Forest with Randomized Search CV Regression
 <br />
 
-<br />
-<br />In order to determine the most effective model, we use 2 performance metrics, Mean Square Error (MSE) and Accuracy of the model.
+
 
 
 # Conclusion
-We have found out that Random Forest with Randomized Search CV produces the best laptop price prediction model.
+In order to determine the most effective model, we use 2 performance metrics, Mean Square Error (MSE) and Accuracy of the model.
+<br />We have found out that Random Forest with Randomized Search CV produces the best laptop price prediction model.
 <br />The model has the best Regressor accuracy score of 0.7085 and the least Mean Squared Error (MSE) of 381.32
 
 
