@@ -55,8 +55,8 @@ We have found out that Random Forest with Randomized Search CV produces the best
 <br />The model has the best Regressor accuracy score of 0.7085 and the least Mean Squared Error (MSE) of 381.32
 
 
-## Team Members
-<br /> Edmund
+### Team Members
+Edmund
 <br /> Joshua
 <br /> Siyu
 <br />
