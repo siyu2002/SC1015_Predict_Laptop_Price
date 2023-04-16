@@ -114,21 +114,21 @@ Checkpoint 2. Data Preprocessing Detailed description on your dataset via statis
 
 Detailed statements on why and how you perform data preprocessing, e.g. data cleaning, normalization, transformation, data augmentation.
 
-Checkpoint 3. Methodology Explain the reason for choosing your machine learning model.
+**Checkpoint 3. Methodology Explain the reason for choosing your machine learning model.
 
-Detailed & formal introduction to your model. You must provide the formulation or diagram of the model you use thoroughly. Clarify the input and output of your model.
+**Detailed & formal introduction to your model. You must provide the formulation or diagram of the model you use thoroughly. Clarify the input and output of your model.
 
-Clarify how you train and inference based on the model you choose.
+**Clarify how you train and inference based on the model you choose.
 
-Clarify the choice of hyperparameters of your model.
+**Clarify the choice of hyperparameters of your model.
 
-Checkpoint 4. Experiments Detailed introduction to the performance metrics you use for experiments.
+**Checkpoint 4. Experiments Detailed introduction to the performance metrics you use for experiments.
 
-Briefly introduce which baselines you are comparing with, e.g. you compare your model against a random guessing, a decision tree, a linear model, etc. This part is compulsory.
+**Briefly introduce which baselines you are comparing with, e.g. you compare your model against a random guessing, a decision tree, a linear model, etc. This part is compulsory.
 
-Detailed model selection and comparison: Is your model fitting well compared to your baselines? Discuss about underfitting/overfitting if any. Important
+**Detailed model selection and comparison: Is your model fitting well compared to your baselines? Discuss about underfitting/overfitting if any. Important
 
-Which configuration (hyperparameter choices) performs the best? What numerical results lead to these conclusions? Your conclusion is held in what sense? The analysis of this part (not the performance alone) is the most important.
+**Which configuration (hyperparameter choices) performs the best? What numerical results lead to these conclusions? Your conclusion is held in what sense? The analysis of this part (not the performance alone) is the most important.
 
 Checkpoint 5. Conclusion Briefly summarize your findings in Experiments.
 
