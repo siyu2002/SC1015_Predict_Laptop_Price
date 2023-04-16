@@ -4,27 +4,27 @@ We are using a mixed structured dataset of numeric and categorical datatype from
   Refer: Raw data_description <br />
 
 # Data preprocessing (Cleaning and Preparation of dataset) 
-1) Conversion of Datatypes (from categorial to numeric)
-2) Splicing
-3) Removing outliers
-4) Dropping variables not useful for project objective
+>1) Conversion of Datatypes (from categorial to numeric)
+>2) Splicing
+>3) Removing outliers
+>4) Dropping variables not useful for project objective
 
 # Exploratory Data Analysis
-<br />1) Uni-variate analysis
-<br />  a) Histogram
-<br />  b) Histogram with kernel density estimate (KDE)
-<br />  b) Boxplot
-<br />  c) Violin plot
+>1) Uni-variate analysis
+> a. Histogram
+> b. Histogram with kernel density estimate (KDE)
+> c. Boxplot
+> d. Violin plot
   
-<br />2) Multi-variate analysis
-<br />  a) Correlation coefficient between numeric variables
-<br />  b) Boxplot with catergorical variables
+>2) Multi-variate analysis
+> a.Correlation coefficient between numeric variables
+> b. Boxplot with catergorical variables
   
 <br />From the EDA, we have found out 
 
 # Data processing for ML Analysis
-<br />1) creating dummy variables from existing variables
-<br />2) Removing variables that are not useful for ML analysis
+>1. Creating dummy variables from existing variables
+>2. Removing variables that are not useful for ML analysis
 
 # Machine Learning Tools utilised:
 <br />Regression
