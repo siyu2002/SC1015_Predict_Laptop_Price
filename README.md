@@ -2,7 +2,7 @@
 Our project objective is to create an effective laptop pricing model based on the computer specifications and current demand and supply of the market, in order for laptop manufacturers to have a competitive pricing for their product. <br />
 <br />
 We are using a mixed structured dataset of numeric and categorical datatype from Kaggle, and We are going to peform Machine Learning Algorithms on the dataset in order to predict the laptop price using multiple variables of categorial and numeric datatypes. <br />
-<br />  Refer: [Raw data_description](../blob/master/Raw data_description) <br />
+<br />  Refer: [[Raw data_description](../blob/master/Raw data_description)] <br />
 
 # Data Pre-processing (Cleaning and Preparation of Dataset) 
 1) Conversion of Datatypes (from categorial to numeric)
