@@ -6,7 +6,7 @@ SUMMARY:
 0 Company: Laptop Manufacturer	                                                        dtype=object/string
 1 TypeName: Type of Laptop	                                                        dtype=object/string
 2 Inches: Screen Size in Inches	                                                        dtype=float64
-3 ScreenResolution: Screen Resolution of Laptop	                                        dtype=float64
+3 ScreenResolution: Total pixels (Screen Resolution) of Laptop                          dtype=float64
 4 Ram: Size of Random-Access Memory (RAM) device in GigaBytes (GB)                      dtype=object/string
 5 Gpu: Company Name of Graphics Processing Unit (GPU)	                                dtype=object/string
 6 OpSys: Operating System (OS)	                                                        dtype=object/string
