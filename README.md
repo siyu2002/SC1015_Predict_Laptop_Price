@@ -61,7 +61,16 @@ We have utilised a form of supervised learning:
 <br />It works by generating multiple decision trees and merges the output of multiple Decision Trees to generate the final output.
 <br />
 <br />3) Random Forest with Randomized Search CV Regression
-<br />
+<br />In order to further optimise Random Forest Model, hyperparameters were tuned before the train dataset is used for training of the model.
+<br />In the case of Random Forest, The hyperparameters are number of features used for spliting considered for each tree and number of decision trees generated.
+<br />Then, Cross Validation is used to account for the overfitting of model on the train dataset, and determine the best hyperparameters for Random Forest tree.
+<br />The train set is split into K number of subsets(folds)
+<br />K-1 folds are trained and fitted, and evaluated on the remaining fold.
+<br />The training dataset is iteratively fitted K times, evaluating each fold with respective of the remaining trained fold.
+<br />The average performance is obtained from all the evaluations and the final validation metrics for the model were determined.
+<br />For each hyperparameter combination, the whole CV process is repeated to find the best hyperparameters for the tree.
+
+
 
 
 
