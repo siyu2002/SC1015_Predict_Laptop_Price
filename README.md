@@ -54,13 +54,14 @@ We have utilised a form of supervised learning:
 ><br />This occurs when the training data is recursively split until each leaf node is pure and each leaf node have a 100% accuracy.
 <br />
 <br />Hence, (2) Random Forest Regression and (3) Random Forest with Randomized Search CV Regression were used to further improve the accuracy of (1) Decision Tree Regression
+
 <br />
 <br />2) Random Forest Regression
-<br /> Random Forest is fast and robust, and fixes the overfitting problem by Decision Tree.
-<br />It works by generating multiple decision trees and merges the output of multiple Decision Trees to generate the final output.
+><br /> Random Forest is fast and robust, and fixes the overfitting problem by Decision Tree.
+><br />It works by generating multiple decision trees and merges the output of multiple Decision Trees to generate the final output.
 <br />
 <br />3) Random Forest with Randomized Search CV Regression
-<br />
+><br />
 
 
 
