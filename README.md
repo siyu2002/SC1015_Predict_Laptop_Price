@@ -21,14 +21,16 @@ We are using a mixed structured dataset of numeric and categorical datatype from
 <br /> a.Correlation coefficient between numeric variables
 <br /> b. Boxplot with catergorical variables
   
-<br />From the EDA, we have found out 
+<br />From the EDA, we have found out numeric variables SSD and ScreenResolution has the highest positive correlation with Laptop price.
+<br />Also, from the Boxplot, Catergorial variables Company, RAM, CPU_company and CPU_model are the best predictors for Laptop price.
 
 # Data Processing for ML Analysis
 1. Creating dummy variables from existing variables
 2. Removing variables that are not useful for ML analysis
 
 # Machine Learning Tools utilised:
-Regression
+We have utilised a form of supervised learning: 
+<br />Regression
 <br />
 <br />We have utilised Regression as we are predicting the laptop price which is continuous (non-discrete) numeric variable.
 <br />-The Machine Learning algorithm here is provided with a small training dataset to work with, which is a smaller part of the bigger dataset.
@@ -38,14 +40,21 @@ Regression
 
 <br />We have tried 3 different regression methods in order to find out which method is the most effective in creating the best regression model.
 
-<br />1) Decision Tree
-<br />Often leads to data fragmentation, and overfitting of the model
+<br />1) Decision Tree Regression
+<br />Decision Tree was decided as we are using a combination of numeric and categorical variables to predict a continuous numeric datatype Laptop Price.
+<br />Decision Tree finds the best split at a certain feature, like SDD, at a certain value.
+<br />Each Decision Node is recursively split into leaf nodes using the features(variables) and values, creating different classes.
+<br />The tree is then used to predict the Laptop price using the test data, and the predicted value is compared to the actual value to determine the accuracy of the model.
+<br />However, Decision Tree often leads to data fragmentation, and overfitting of the model.
+<br />This occurs when the training data is recursively split until each leaf node is pure and each leaf node have a 100% accuracy.
+<br />
+<br />Hence, (2) Random Forest Regression and (3) Random Forest with Randomized Search CV Regression were used to further improve the accuracy of (1) Decision Tree Regression
+<br />
+<br />2) Random Forest Regression
+<br />
+<br />3) Random Forest with Randomized Search CV Regression
+<br />
 
-<br />2) Random Forest
-<br />
-<br />3) Random Forest with CV
-<br />
-<br />(2) Random Forest and (3) Random Forest with CV were used to further improve the accuracy of (1) Decision Tree
 <br />
 <br />In order to determine the most effective model, we use 2 performance metrics, Mean Square Error (MSE) and Accuracy of the model.
 
