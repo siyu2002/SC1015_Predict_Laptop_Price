@@ -38,9 +38,9 @@ We have utilised a form of supervised learning:
 <br />-The training dataset here is also very similar to the final dataset in its characteristics and offers the algorithm with the labeled parameters required for the problem.
 <br />-The Machine Learning algorithm then finds relationships between the given parameters, establishing a cause and effect relationship between the variables in the dataset.
 
-### First, the dataset is split into Test and Train data sets, with a split of 0.3 (30% test and 70% train)
-### Then, Different Regression Models are fitted into the train dataset.
-### The test dataset is used to determine the accuracy of the prediction.
+**First, the dataset is split into Test and Train data sets, with a split of 0.3 (30% test and 70% train)
+**Then, Different Regression Models are fitted into the train dataset.
+**The test dataset is used to determine the accuracy of the prediction.
 
 <br />We have tried 3 different regression methods in order to find out which method is the most effective in creating the best regression model.
 
