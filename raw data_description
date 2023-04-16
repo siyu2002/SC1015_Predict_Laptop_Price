@@ -10,7 +10,7 @@ SUMMARY:
 4 Inches: Screen Size in Inches	                                                        dtype=float64
 5 ScreenResolution: Screen Resolution of Laptop	                                        dtype=object/string
 6 Cpu: Central Processing Unit (CPU)	                                                dtype=object/string
-7 Ram: Random-Access Memory (RAM) device	                                        dtype=object/string
+7 Ram: Size of Random-Access Memory (RAM) device in GigaBytes (GB)                      dtype=object/string
 8 Memory: Hard Disk Drive (HDD)/Solid-State Drive (SSD) Memory in GigaBytes(GB)         dtype=object/string
 9 Gpu: Company and Model of Graphics Processing Unit (GPU)	                        dtype=object/string
 10 OpSys: Operating System (OS)	                                                        dtype=object/string
