@@ -4,7 +4,7 @@ Our project objective is to create an effective laptop pricing model based on th
 We are using a mixed structured dataset of numeric and categorical datatype from Kaggle, and We are going to peform Machine Learning Algorithms on the dataset in order to predict the laptop price using multiple variables of categorial and numeric datatypes. <br />
 <br />  Refer: Raw data_description <br />
 
-# Data preprocessing (Cleaning and Preparation of dataset) 
+# Data Pre-processing (Cleaning and Preparation of Dataset) 
 1) Conversion of Datatypes (from categorial to numeric)
 2) Splicing
 3) Removing outliers
@@ -23,7 +23,7 @@ We are using a mixed structured dataset of numeric and categorical datatype from
   
 <br />From the EDA, we have found out 
 
-# Data processing for ML Analysis
+# Data Processing for ML Analysis
 1. Creating dummy variables from existing variables
 2. Removing variables that are not useful for ML analysis
 
