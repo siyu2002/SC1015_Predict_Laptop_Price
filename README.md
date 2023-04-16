@@ -2,7 +2,7 @@
 Our project objective is to create an effective laptop pricing model based on the computer specifications and current demand and supply of the market, in order for laptop manufacturers to have a competitive pricing for their product. <br />
 <br />
 We are using a mixed structured dataset of numeric and categorical datatype from Kaggle, and We are going to peform Machine Learning Algorithms on the dataset in order to predict the laptop price using multiple variables of categorial and numeric datatypes. <br />
-<br />    Refer: [Raw data_description](https://github.com/siyu2002/SC1015_Predict_Laptop_Price/blob/main/raw%20data_description) <br />
+<br />    Refer: [Raw data_description](https://github.com/siyu2002/SC1015_Predict_Laptop_Price/blob/main/Data%20Description/raw%20data_description) <br />
 
 # Data Pre-processing (Cleaning and Preparation of Dataset) 
 1) Conversion of Datatypes (from categorial to numeric)
@@ -10,7 +10,7 @@ We are using a mixed structured dataset of numeric and categorical datatype from
 3) Removing outliers
 4) Dropping variables not useful for project objective
 
-<br /> Refer: [clean data_description](https://github.com/siyu2002/SC1015_Predict_Laptop_Price/blob/main/clean%20data_description) <br /> 
+<br /> Refer: [clean data_description](https://github.com/siyu2002/SC1015_Predict_Laptop_Price/blob/main/Data%20Description/clean%20data_description) <br /> 
 
 # Exploratory Data Analysis
 **Visualisation**
