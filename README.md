@@ -19,8 +19,11 @@ We are using a mixed structured dataset of numeric and categorical datatype from
 <br /> b. Histogram with kernel density estimate (KDE)
 <br /> c. Boxplot
 <br /> d. Violin plot
+
+2) Bi-variate analysis
+<br /> a. Joint plot
   
-2) Multi-variate analysis
+3) Multi-variate analysis
 <br /> a. Correlation coefficient between numeric variables
 <br /> b. Boxplot with catergorical variables
   
