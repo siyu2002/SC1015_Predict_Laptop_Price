@@ -12,14 +12,14 @@ We are using a mixed structured dataset of numeric and categorical datatype from
 
 # Exploratory Data Analysis
 1) Uni-variate analysis
- a. Histogram
- b. Histogram with kernel density estimate (KDE)
- c. Boxplot
- d. Violin plot
+<br /> a. Histogram
+<br /> b. Histogram with kernel density estimate (KDE)
+<br /> c. Boxplot
+<br /> d. Violin plot
   
 2) Multi-variate analysis
- a.Correlation coefficient between numeric variables
- b. Boxplot with catergorical variables
+<br /> a.Correlation coefficient between numeric variables
+<br /> b. Boxplot with catergorical variables
   
 <br />From the EDA, we have found out 
 
@@ -28,7 +28,7 @@ We are using a mixed structured dataset of numeric and categorical datatype from
 2. Removing variables that are not useful for ML analysis
 
 # Machine Learning Tools utilised:
-<br />Regression
+Regression
 <br />
 <br />We have utilised Regression as we are predicting the laptop price which is continuous (non-discrete) numeric variable.
 <br />-The Machine Learning algorithm here is provided with a small training dataset to work with, which is a smaller part of the bigger dataset.
