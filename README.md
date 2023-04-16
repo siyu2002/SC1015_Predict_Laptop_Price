@@ -21,12 +21,15 @@ We are using a mixed structured dataset of numeric and categorical datatype from
 <br /> a.Correlation coefficient between numeric variables
 <br /> b. Boxplot with catergorical variables
   
-<br />From the EDA, we have found out numeric variables SSD and ScreenResolution has the highest positive correlation with Laptop price.
-<br />Also, from the Boxplot, Catergorial variables Company, RAM, CPU_company and CPU_model are the best predictors for Laptop price.
+<br />From the EDA, we have found out numeric variables **SSD and ScreenResolution** has the highest positive correlation with Laptop price.
+<br />Also, from the Boxplot, Catergorial variables **Company, RAM, CPU_company and CPU_model** are the best predictors for Laptop price.
 
 # Data Processing for ML Analysis
 1. Creating dummy variables from existing variables
 2. Removing variables that are not useful for ML analysis
+
+Input for the ML model: SSD, ScreenResolution, Company, RAM, CPU_company and CPU_model
+Output: Laptop Price in Euros
 
 # Machine Learning Tools utilised:
 We have utilised a form of supervised learning: 
@@ -70,6 +73,14 @@ We have utilised a form of supervised learning:
 <br />The average performance is obtained from all the evaluations and the final validation metrics for the model were determined.
 <br />For each hyperparameter combination, the whole CV process is repeated to find the best hyperparameters for the tree.
 
+<br />Based on Cross Validation, 
+The best hyperparameters determined are as follows:
+ |'bootstrap'| True|
+ |'max_depth'| 110|
+ |'max_features'| 'sqrt'|
+ |'min_samples_leaf'| 1|
+ |'min_samples_split'| 2|
+ |'n_estimators'| 450|
 
 
 
