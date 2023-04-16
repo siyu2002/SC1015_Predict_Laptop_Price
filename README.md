@@ -75,12 +75,12 @@ We have utilised a form of supervised learning:
 
 <br />Based on Cross Validation, 
 The best hyperparameters determined are as follows:
- >|'bootstrap'| True|
- >|'max_depth'| 110|
- >|'max_features'| 'sqrt'|
- >|'min_samples_leaf'| 1|
- >|'min_samples_split'| 2|
- >|'n_estimators'| 450|
+ >| 'bootstrap' | True  |
+ >| 'max_depth'  | 110 |
+ >| 'max_features'  | 'sqrt'  |
+ >| 'min_samples_leaf' |  1  |
+ >| 'min_samples_split' | 2 |
+ >| 'n_estimators' |  450  |
 
 
 
