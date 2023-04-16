@@ -1,5 +1,6 @@
 # Introduction
 Our project objective is to create an effective laptop pricing model based on the computer specifications and current demand and supply of the market, in order for laptop manufacturers to have a competitive pricing for their product. <br />
+<br />
 We are using a mixed structured dataset of numeric and categorical datatype from Kaggle, and We are going to peform Machine Learning Algorithms on the dataset in order to predict the laptop price using multiple variables of categorial and numeric datatypes. <br />
   Refer: Raw data_description <br />
 
@@ -10,21 +11,21 @@ We are using a mixed structured dataset of numeric and categorical datatype from
 4) Dropping variables not useful for project objective
 
 # Exploratory Data Analysis
->1) Uni-variate analysis
-> a. Histogram
-> b. Histogram with kernel density estimate (KDE)
-> c. Boxplot
-> d. Violin plot
+1) Uni-variate analysis
+ a. Histogram
+ b. Histogram with kernel density estimate (KDE)
+ c. Boxplot
+ d. Violin plot
   
->2) Multi-variate analysis
-> a.Correlation coefficient between numeric variables
-> b. Boxplot with catergorical variables
+2) Multi-variate analysis
+ a.Correlation coefficient between numeric variables
+ b. Boxplot with catergorical variables
   
 <br />From the EDA, we have found out 
 
 # Data processing for ML Analysis
->1. Creating dummy variables from existing variables
->2. Removing variables that are not useful for ML analysis
+1. Creating dummy variables from existing variables
+2. Removing variables that are not useful for ML analysis
 
 # Machine Learning Tools utilised:
 <br />Regression
