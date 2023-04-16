@@ -10,49 +10,48 @@ We are using a mixed structured dataset of numeric and categorical datatype from
 4) Dropping variables not useful for project objective
 
 # Exploratory Data Analysis
-1) Uni-variate analysis
-  a) Histogram
-  b) Histogram with kernel density estimate (KDE)
-  b) Boxplot
-  c) Violin plot
+<br />1) Uni-variate analysis
+<br />  a) Histogram
+<br />  b) Histogram with kernel density estimate (KDE)
+<br />  b) Boxplot
+<br />  c) Violin plot
   
-2) Multi-variate analysis
-  a) Correlation coefficient between numeric variables
-  b) Boxplot with catergorical variables
+<br />2) Multi-variate analysis
+<br />  a) Correlation coefficient between numeric variables
+<br />  b) Boxplot with catergorical variables
   
-From the EDA, we have found out 
+<br />From the EDA, we have found out 
 
 # Data processing for ML Analysis
-1) creating dummy variables from existing variables
-2) Removing variables that are not useful for ML analysis
+<br />1) creating dummy variables from existing variables
+<br />2) Removing variables that are not useful for ML analysis
 
 # Machine Learning Tools utilised:
-Regression
+<br />Regression
+<br />
+<br />We have utilised Regression as we are predicting the laptop price which is continuous (non-discrete) numeric variable.
+<br />-The Machine Learning algorithm here is provided with a small training dataset to work with, which is a smaller part of the bigger dataset.
+<br />-It serves to give the algorithm an idea of the problem, solution, and various data points to be dealt with.
+<br />-The training dataset here is also very similar to the final dataset in its characteristics and offers the algorithm with the labeled parameters required for the problem.
+<br />-The Machine Learning algorithm then finds relationships between the given parameters, establishing a cause and effect relationship between the variables in the dataset.
 
-We have utilised Regression as we are predicting the laptop price which is continuous (non-discrete) numeric variable.
--The Machine Learning algorithm here is provided with a small training dataset to work with, which is a smaller part of the bigger dataset.
--It serves to give the algorithm an idea of the problem, solution, and various data points to be dealt with.
--The training dataset here is also very similar to the final dataset in its characteristics and offers the algorithm with the labeled parameters required for the problem.
--The Machine Learning algorithm then finds relationships between the given parameters, establishing a cause and effect relationship between the variables in the dataset.
+<br />We have tried 3 different regression methods in order to find out which method is the most effective in creating the best regression model.
 
-We have tried 3 different regression methods in order to find out which method is the most effective in creating the best regression model.
+<br />1) Decision Tree
+<br />Often leads to data fragmentation, and overfitting of the model
 
-1) Decision Tree
-Often leads to data fragmentation, and overfitting of the model
-
-2) Random Forest
-
-
-3) Random Forest with CV
-
-(2) Random Forest and (3) Random Forest with CV were used to further improve the accuracy of (1) Decision Tree
-
-In order to determine the most effective model, we use 2 performance metrics, Mean Square Error (MSE) and Accuracy of the model.
+<br />2) Random Forest
+<br />
+<br />3) Random Forest with CV
+<br />
+<br />(2) Random Forest and (3) Random Forest with CV were used to further improve the accuracy of (1) Decision Tree
+<br />
+<br />In order to determine the most effective model, we use 2 performance metrics, Mean Square Error (MSE) and Accuracy of the model.
 
 
 # Conclusion
-We have found out that Random Forest with Randomized Search CV produces the best laptop price prediction model.
-The model has the best Regressor accuracy score of 0.7085 and the least Mean Squared Error (MSE) of 381.32
+<br />We have found out that Random Forest with Randomized Search CV produces the best laptop price prediction model.
+<br />The model has the best Regressor accuracy score of 0.7085 and the least Mean Squared Error (MSE) of 381.32
 
 <br />
 ## Team Members
