@@ -76,7 +76,7 @@ Hence, (2) Random Forest Regression and (3) Random Forest with Randomized Search
 > <br />The average performance is obtained from all the evaluations and the final validation metrics for the model were determined.
 > <br />For each hyperparameter combination, the whole CV process is repeated to find the best hyperparameters for the tree.
 
-<br />Based on Cross Validation, 
+<br />Based on Randomized Search Cross Validation, 
 The best hyperparameters determined are as follows:
  >| hyperparameters | values |
  >|-----------------|--------|
