@@ -4,16 +4,16 @@ Before cleaning of dataset
 SUMMARY:
 
 0 Laptop ID: ID of Laptop	                                                        dtype=int64
-1 Company: Laptop Manufacturer	                                                    dtype=object/string
+1 Company: Laptop Manufacturer	                                                        dtype=object/string
 2 Product: Brand and Model	                                                        dtype=object/string
 3 TypeName: Type of Laptop	                                                        dtype=object/string
-4 Inches: Screen Size in Inches	                                                    dtype=float64
-5 ScreenResolution: Screen Resolution of Laptop	                                    dtype=object/string
-6 Cpu: Central Processing Unit (CPU)	                                            dtype=object/string
+4 Inches: Screen Size in Inches	                                                        dtype=float64
+5 ScreenResolution: Screen Resolution of Laptop	                                        dtype=object/string
+6 Cpu: Central Processing Unit (CPU)	                                                dtype=object/string
 7 Ram: Random-Access Memory (RAM) device	                                        dtype=object/string
-8 Memory: Hard Disk Drive (HDD)/Solid-State Drive (SSD) Memory in GigaBytes(GB)     dtype=object/string
-9 GPU: Graphics Processing Unit (GPU)	                                            dtype=object/string
-10 OpSys: Operating System (OS)	                                                    dtype=object/string
+8 Memory: Hard Disk Drive (HDD)/Solid-State Drive (SSD) Memory in GigaBytes(GB)         dtype=object/string
+9 GPU: Graphics Processing Unit (GPU)	                                                dtype=object/string
+10 OpSys: Operating System (OS)	                                                        dtype=object/string
 11 Weight: Laptop Weight in kilograms (kg)	                                        dtype=object/string
 12 Price_euros: Price of Laptop in Euros	                                        dtype=float64
 
