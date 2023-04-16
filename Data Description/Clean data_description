@@ -20,7 +20,7 @@ SUMMARY:
 14 Flash: Flash Storage used in GigaBytes (GB)                                          dtype=int32
 15 Hybrid: Hybrid Memory used in GigaBytes (GB)                                         dtype=int32
 
-dtypes: float64(4), int32(4), object(8)
+dtypes: float64(5), int32(5), object(6)
 memory usage: 149.2+ KB
 ========================================================================================================
 0 Company: Laptop Manufacturer	                                                        dtype=object/string
