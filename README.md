@@ -75,6 +75,8 @@ We have utilised a form of supervised learning:
 
 <br />Based on Cross Validation, 
 The best hyperparameters determined are as follows:
+ >| hyperparameters | values |
+ >|-----------------|--------|
  >| 'bootstrap' | True  |
  >| 'max_depth'  | 110 |
  >| 'max_features'  | 'sqrt'  |
