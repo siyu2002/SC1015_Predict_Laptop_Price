@@ -19,7 +19,6 @@ SUMMARY:
 
 dtypes: float64(2), int64(1), object(10)
 memory usage: 132.5+ KB
-
 ========================================================================================================
 0 Laptop ID: ID of Laptop	dtype=int64
 
