@@ -42,11 +42,7 @@ We have utilised a form of supervised learning:
 <br />Regression
 <br />
 <br />We have utilised Regression as we are predicting the laptop price which is continuous (non-discrete) numeric variable.
-<br />-The Machine Learning algorithm here is provided with a small training dataset to work with, which is a smaller part of the bigger dataset.
-<br />-It serves to give the algorithm an idea of the problem, solution, and various data points to be dealt with.
-<br />-The training dataset here is also very similar to the final dataset in its characteristics and offers the algorithm with the labeled parameters required for the problem.
-<br />-The Machine Learning algorithm then finds relationships between the given parameters, establishing a cause and effect relationship between the variables in the dataset.
-<br />
+
 <br />
 **First, the dataset is split into Test and Train data sets, with a split of 0.3 (30% test and 70% train)
 <br />Then, Different Regression Models are fitted into the train dataset.
@@ -55,32 +51,13 @@ We have utilised a form of supervised learning:
 <br />We have tried 3 different regression methods in order to find out which method is the most effective in creating the best regression model.
 
 <br />1) Decision Tree Regression
->Decision Tree was decided as we are using a combination of numeric and categorical variables to predict a continuous numeric datatype Laptop Price.
-><br />Decision Tree finds the best split at a certain feature, like SDD, at a certain value.
-><br />Each Decision Node is recursively split into leaf nodes using the features(variables) and values, creating different classes.
-><br />By traversing the tree, we are then able to predict the Laptop price using the test data, and the predicted value is compared to the actual value to determine the accuracy of the model.
-><br />
-><br />However, Decision Tree often leads to data fragmentation, and overfitting of the model.
-><br />This occurs when the training data is recursively split until each leaf node is pure and each leaf node have a 100% accuracy.
 
 Hence, (2) Random Forest Regression and (3) Random Forest with Randomized Search CV Regression were used to further improve the accuracy of (1) Decision Tree Regression
 
 <br />2) Random Forest Regression
 
->Random Forest is fast and robust, and fixes the overfitting problem by Decision Tree.
-><br />It works by generating multiple decision trees and merges the output of multiple Decision Trees to generate the final output.
-><br />
 
 <br />3) Random Forest with Randomized Search CV Regression
-
-> In order to further optimise Random Forest Model, hyperparameters were tuned before the train dataset is used for training of the model.
-> <br />In the case of Random Forest, The hyperparameters are number of features used for spliting considered for each tree and number of decision trees generated.
-> <br />Then, Cross Validation is used to account for the overfitting of model on the train dataset, and determine the best hyperparameters for Random Forest tree.
-> <br />The train set is split into K number of subsets(folds)
-> <br />K-1 folds are trained and fitted, and evaluated on the remaining fold.
-> <br />The training dataset is iteratively fitted K times, evaluating each fold with respective of the remaining trained fold.
-> <br />The average performance is obtained from all the evaluations and the final validation metrics for the model were determined.
-> <br />For each hyperparameter combination, the whole CV process is repeated to find the best hyperparameters for the tree.
 
 <br />Based on Randomized Search Cross Validation, 
 The best hyperparameters determined are as follows:
