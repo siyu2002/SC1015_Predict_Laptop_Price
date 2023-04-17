@@ -114,6 +114,7 @@ In order to determine the most effective model, we use 2 performance metrics, Me
 
 **Rooms for Improvement for model:**
 <br />Random Forests can be computationally expensive, and hence this model will not work as well if the dataset is large or has many features. The randomized CV search can further increase the computational complexity of the algorithm.
+<br />Bias towards categorical variables: Random Forests can be biased towards categorical variables with many categories. This is because the algorithm tends to split such variables into smaller groups, which can lead to overfitting.
 
 ### Team Members
 Edmund
