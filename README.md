@@ -94,7 +94,7 @@ In order to determine the most effective model, we use 2 performance metrics, Me
 <br />Bias towards categorical variables: Random Forests can be biased towards categorical variables with many categories. This is because the algorithm tends to split such variables into smaller groups, which can lead to overfitting.
 
 ### Team Members
-Edmund
-<br /> Joshua
-<br /> Siyu
+Edmund: Code, Slides, Documentation 
+<br /> Joshua: Code, Record Video, Documentation
+<br /> Siyu: Code, Editor, Documentation
 <br />
