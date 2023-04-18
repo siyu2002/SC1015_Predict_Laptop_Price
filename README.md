@@ -47,10 +47,10 @@ We have utilised a form of supervised learning:
 <br />Then, Different Regression Models are fitted into the train dataset.
 <br />The test dataset is used to determine the accuracy of the prediction.**
 
-<br />We have tried 3 different regression methods in order to find out which method is the most effective in creating the best regression model.
-<br />1) Decision Tree Regression
-<br />2) Random Forest Regression
-<br />3) Random Forest with Randomized Search CV Regression
+We have tried 3 different regression methods in order to find out which method is the most effective in creating the best regression model.
+1) Decision Tree Regression
+2) Random Forest Regression
+3) Random Forest with Randomized Search CV Regression
 
 (2) Random Forest Regression and (3) Random Forest with Randomized Search CV Regression were used to further improve the accuracy of (1) Decision Tree Regression
 
