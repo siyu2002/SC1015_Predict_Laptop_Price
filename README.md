@@ -54,7 +54,7 @@ We have tried 3 different regression methods in order to find out which method i
 
 (2) Random Forest Regression and (3) Random Forest with Randomized Search CV Regression were used to further improve the accuracy of (1) Decision Tree Regression
 
-<br />Based on Randomized Search Cross Validation, 
+Based on Randomized Search Cross Validation, 
 The best hyperparameters determined are as follows:
  | hyperparameters | values |
  |-----------------|--------|
@@ -72,9 +72,8 @@ In order to determine the most effective model, we use 2 performance metrics, Me
  | MSE | 405.54 |  389.48  | 381.32  |
  | Score  |  0.6703  | 0.6959  | 0.7085  |
 
-<br />We have found out that Random Forest with Randomized Search CV produces the best laptop price prediction model.
+We have found out that Random Forest with Randomized Search CV produces the best laptop price prediction model.
 <br />The model has the best Regressor accuracy score of 0.7085 and the least Mean Squared Error (MSE) of 381.32
-<br />
 
 **Rooms for Improvement for model:**
 <br />Random Forests can be computationally expensive, and hence this model will not work as well if the dataset is large or has many features. The randomized CV search can further increase the computational complexity of the algorithm.
