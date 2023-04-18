@@ -43,7 +43,6 @@ We have utilised a form of supervised learning:
 <br />
 <br />We have utilised Regression as we are predicting the laptop price which is continuous (non-discrete) numeric variable using a combination of numeric and categorical variables.
 
-<br />
 **First, the dataset is split into Test and Train data sets, with a split of 0.3 (30% test and 70% train)
 <br />Then, Different Regression Models are fitted into the train dataset.
 <br />The test dataset is used to determine the accuracy of the prediction.**
