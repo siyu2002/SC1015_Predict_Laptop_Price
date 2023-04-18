@@ -39,12 +39,11 @@ Input for the ML model: SSD, ScreenResolution, Company, RAM, CPU_company and CPU
 
 # Machine Learning Tools
 We have utilised a form of supervised learning: 
-<br />Regression
+<br />**Regression**
 <br />
-<br />We have utilised Regression as we are predicting the laptop price which is continuous (non-discrete) numeric variable.
+<br />We have utilised Regression as we are predicting the laptop price which is continuous (non-discrete) numeric variable using a combination of numeric and categorical variables.
 
 <br />
-
 **First, the dataset is split into Test and Train data sets, with a split of 0.3 (30% test and 70% train)
 <br />Then, Different Regression Models are fitted into the train dataset.
 <br />The test dataset is used to determine the accuracy of the prediction.**
@@ -55,8 +54,6 @@ We have utilised a form of supervised learning:
 <br />3) Random Forest with Randomized Search CV Regression
 
 (2) Random Forest Regression and (3) Random Forest with Randomized Search CV Regression were used to further improve the accuracy of (1) Decision Tree Regression
-
-
 
 <br />Based on Randomized Search Cross Validation, 
 The best hyperparameters determined are as follows:
@@ -69,20 +66,12 @@ The best hyperparameters determined are as follows:
  | 'min_samples_split' | 2 |
  | 'n_estimators' |  450  |
 
-
-
-
-
-
-
 # Conclusion
 In order to determine the most effective model, we use 2 performance metrics, Mean Square Error (MSE) and Accuracy of the model.
  | |  Decision Tree Regressor | Random Forest Regressor | Random Forest Regressor with Randomized Search CV |
  |-----------------|--------|------------------------|---------------------------|
  | MSE | 405.54 |  389.48  | 381.32  |
  | Score  |  0.6703  | 0.6959  | 0.7085  |
-
-
 
 <br />We have found out that Random Forest with Randomized Search CV produces the best laptop price prediction model.
 <br />The model has the best Regressor accuracy score of 0.7085 and the least Mean Squared Error (MSE) of 381.32
