@@ -44,6 +44,7 @@ We have utilised a form of supervised learning:
 <br />We have utilised Regression as we are predicting the laptop price which is continuous (non-discrete) numeric variable.
 
 <br />
+
 **First, the dataset is split into Test and Train data sets, with a split of 0.3 (30% test and 70% train)
 <br />Then, Different Regression Models are fitted into the train dataset.
 <br />The test dataset is used to determine the accuracy of the prediction.**
@@ -51,13 +52,12 @@ We have utilised a form of supervised learning:
 <br />We have tried 3 different regression methods in order to find out which method is the most effective in creating the best regression model.
 
 <br />1) Decision Tree Regression
-
-Hence, (2) Random Forest Regression and (3) Random Forest with Randomized Search CV Regression were used to further improve the accuracy of (1) Decision Tree Regression
-
 <br />2) Random Forest Regression
-
-
 <br />3) Random Forest with Randomized Search CV Regression
+
+(2) Random Forest Regression and (3) Random Forest with Randomized Search CV Regression were used to further improve the accuracy of (1) Decision Tree Regression
+
+
 
 <br />Based on Randomized Search Cross Validation, 
 The best hyperparameters determined are as follows:
