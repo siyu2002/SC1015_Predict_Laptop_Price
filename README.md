@@ -50,7 +50,6 @@ We have utilised a form of supervised learning:
 <br />The test dataset is used to determine the accuracy of the prediction.**
 
 <br />We have tried 3 different regression methods in order to find out which method is the most effective in creating the best regression model.
-
 <br />1) Decision Tree Regression
 <br />2) Random Forest Regression
 <br />3) Random Forest with Randomized Search CV Regression
