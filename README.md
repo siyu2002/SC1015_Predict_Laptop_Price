@@ -76,8 +76,8 @@ We have found out that Random Forest with Randomized Search CV produces the best
 <br />The model has the best Regressor accuracy score of 0.7085 and the least Mean Squared Error (MSE) of 381.32
 
 **Rooms for Improvement for model:**
-<br />Random Forests can be computationally expensive, and hence this model will not work as well if the dataset is large or has many features. The randomized CV search can further increase the computational complexity of the algorithm.
-<br />Bias towards categorical variables: Random Forests can be biased towards categorical variables with many categories. This is because the algorithm tends to split such variables into smaller groups, which can lead to overfitting.
+1) Random Forests can be computationally expensive, and hence this model will not work as well if the dataset is large or has many features. The randomized CV search can further increase the computational complexity of the algorithm.
+2) Bias towards categorical variables: Random Forests can be biased towards categorical variables with many categories. This is because the algorithm tends to split such variables into smaller groups, which can lead to overfitting.
 
 ### Team Members
 Edmund: Code, Slides, Documentation 
