@@ -84,3 +84,10 @@ Edmund: Code, Slides, Documentation
 <br /> Joshua: Code, Record Video, Documentation
 <br /> Siyu: Code, Editor, Documentation
 <br />
+
+# References
+1. https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html
+2. https://www.datacamp.com/tutorial/decision-tree-classification-python
+3. https://www.geeksforgeeks.org/random-forest-regression-in-python/
+4. https://towardsdatascience.com/random-forest-regression-5f605132d19d
+5. https://towardsdatascience.com/hyperparameter-tuning-the-random-forest-in-python-using-scikit-learn-28d2aa77dd74
